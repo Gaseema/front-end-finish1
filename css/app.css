@@ -149,3 +149,7 @@ $menu-background: #333;
       margin: 0 0 0 -4rem;
       vertical-align: middle;
       padding: .25em .45em; }
+       .footer .contact li {
+      margin-bottom: 2rem; }
+      .footer .contact li p {
+        padding-left: 5rem; }
