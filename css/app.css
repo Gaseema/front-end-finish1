@@ -212,4 +212,8 @@ $menu-background: #333;
     line-height: 35px;
     margin: 0 3px 0 0;
   }
-  
+.contact {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+    color: #fff;  
