@@ -139,3 +139,13 @@ $menu-background: #333;
     margin: 0;
     text-align: left;
     color: #fff; }
+.footer .contact i {
+      position: absolute;
+      background-color: #33383b;
+      color: #fff;
+      font-size: 2rem;
+      border-radius: 50%;
+      line-height: 1;
+      margin: 0 0 0 -4rem;
+      vertical-align: middle;
+      padding: .25em .45em; }
