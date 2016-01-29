@@ -76,3 +76,6 @@ $menu-background: #333;
 .js-drilldown-back::before {
   border-color: transparent #fff transparent transparent;
 }
+.background-pic {
+    width: 100%;
+}
