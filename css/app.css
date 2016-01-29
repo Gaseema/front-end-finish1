@@ -134,3 +134,8 @@ $menu-background: #333;
     text-align: center;
     line-height: 35px;
     margin: 0 3px 0 0; }
+     .footer .contact {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+    color: #fff; }
