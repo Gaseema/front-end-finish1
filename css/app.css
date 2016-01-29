@@ -66,4 +66,7 @@ $menu-background: #333;
 .dropdown.menu .submenu {
   border: none;
 }
+.dropdown.menu .is-dropdown-submenu-parent.is-right-arrow>a::after {
+  border-color: #fff transparent transparent;
+}
 
