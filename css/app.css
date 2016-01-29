@@ -17,3 +17,12 @@ body {
   @media only screen and (max-width: 40em) {
     .menu-text {
       display: none !important; } }
+media only screen@ and (min-width: 40em) {
+  .menu:last-child {
+    border-left: 1px solid #4e4e4e; }
+
+  .menu:first-child {
+    border-left: none; }
+
+  .menu li:not(:last-child) {
+    border-right: 1px solid #4e4e4e; } }
