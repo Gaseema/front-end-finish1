@@ -12,4 +12,8 @@ body {
   background: #333; }
   .top-bar ul li a {
   color: #fff; }
-
+.menu-text {
+  color: #fff; }
+  @media only screen and (max-width: 40em) {
+    .menu-text {
+      display: none !important; } }
