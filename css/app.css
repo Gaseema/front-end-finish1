@@ -153,3 +153,8 @@ $menu-background: #333;
       margin-bottom: 2rem; }
       .footer .contact li p {
         padding-left: 5rem; }
+        
+.footer .copywrite {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0; }
