@@ -98,3 +98,17 @@ $menu-background: #333;
     font-size: 2vw;
     text-align: center;
 }
+@charset "UTF-8";
+.hero {
+  background: url("http://www.banksy-wallpaper.com/wallpapers/800x600/10-i-am-father.jpg") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  overflow: hidden; }
+  .hero h1, .hero h2 {
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    padding: 1rem 0 0 1rem;
+    margin: 0; }
+
+.row {
+  max-width: 1200px; }
