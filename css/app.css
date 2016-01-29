@@ -3,6 +3,7 @@ body {
 
 .title-bar {
   background: #333;
+<<<<<<< HEAD
   padding: 0.9rem; }
 
 .top-bar {
@@ -32,6 +33,32 @@ body {
 
 
 .is-drilldown-submenu-parent > a::after {
+=======
+  padding:0.9rem; }
+.top-bar {
+  background: #333; }
+  .top-bar ul {
+  background: #333; }
+  .top-bar ul li {
+  background: #333; }
+  .top-bar ul li a {
+  color: #fff; }
+.menu-text {
+  color: #fff; }
+  @media only screen and (max-width: 40em) {
+    .menu-text {
+      display: none !important; } }
+media only screen@ and (min-width: 40em) {
+  .menu:last-child {
+    border-left: 1px solid #4e4e4e; }
+
+  .menu:first-child {
+    border-left: none; }
+
+  .menu li:not(:last-child) {
+    border-right: 1px solid #4e4e4e; } }
+    .is-drilldown-submenu-parent > a::after {
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
   border-color: transparent transparent transparent #fff; }
 
 .js-drilldown-back::before {
@@ -40,12 +67,19 @@ body {
 body {marging-top: 2rem;}
 
 $menu-background: #333;
+<<<<<<< HEAD
+=======
+$menu-background: #333;
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
 
 .title-bar {
   background: $menu-background;
   padding: 0.9rem;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
 .top-bar {
   background: $menu-background;
   
@@ -61,7 +95,10 @@ $menu-background: #333;
     }
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
 .menu-text {
   color: #fff;
   
@@ -69,6 +106,7 @@ $menu-background: #333;
     display: none !important;
   }
 }
+<<<<<<< HEAD
 
 @media only screen and (min-width: 40em) {
   .menu:last-child {
@@ -90,6 +128,11 @@ $menu-background: #333;
   border: none;
 }
 
+=======
+.dropdown.menu .submenu {
+  border: none;
+}
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
 .dropdown.menu .is-dropdown-submenu-parent.is-right-arrow>a::after {
   border-color: #fff transparent transparent;
 }
@@ -97,7 +140,10 @@ $menu-background: #333;
 .is-drilldown-submenu-parent>a::after {
   border-color: transparent transparent transparent #fff;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
 .js-drilldown-back::before {
   border-color: transparent #fff transparent transparent;
 }
@@ -111,7 +157,12 @@ $menu-background: #333;
 }
 .about{
     margin-bottom: 5%;
+<<<<<<< HEAD
 }
+=======
+} 
+
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
 .about h1{
     text-align: center;
     padding-top: 4%; 
@@ -136,13 +187,25 @@ $menu-background: #333;
 
 .row {
   max-width: 1200px; }
+<<<<<<< HEAD
+=======
+  .footer {
+  background-color: #292c2f;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 4rem; }
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
 
 .footer {
   background-color: #292c2f;
   text-align: center;
   font-size: 1.2rem;
   padding: 4rem; }
+<<<<<<< HEAD
   .footer .inline-list a {
+=======
+   .footer .inline-list a {
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
     display: inline-block;
     width: 2rem;
     height: 2rem;
@@ -153,16 +216,24 @@ $menu-background: #333;
     text-align: center;
     line-height: 35px;
     margin: 0 3px 0 0; }
+<<<<<<< HEAD
   .footer .contact {
+=======
+     .footer .contact {
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
     list-style-type: none;
     margin: 0;
     text-align: left;
     color: #fff; }
+<<<<<<< HEAD
     .footer .contact li {
       margin-bottom: 2rem; }
       .footer .contact li p {
         padding-left: 5rem; }
     .footer .contact i {
+=======
+.footer .contact i {
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
       position: absolute;
       background-color: #33383b;
       color: #fff;
@@ -172,6 +243,7 @@ $menu-background: #333;
       margin: 0 0 0 -4rem;
       vertical-align: middle;
       padding: .25em .45em; }
+<<<<<<< HEAD
   .footer .copywrite {
     color: #8f9296;
     font-size: 0.875rem;
@@ -181,19 +253,44 @@ $menu-background: #333;
     font-size: 0.875rem;
     margin: 0 0 1rem 0; }
   .footer .footer-links a {
+=======
+       .footer .contact li {
+      margin-bottom: 2rem; }
+      .footer .contact li p {
+        padding-left: 5rem; }
+        
+.footer .copywrite {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0; }
+.footer .about {
+    color: #92999f;
+    font-size: 0.875rem;
+    margin: 0 0 1rem 0; }
+.footer .footer-links a {
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
     list-style: none;
     font-weight: normal;
     color: #fff;
     padding: 3rem 0 2rem;
     margin: 0;
     font-size: 0.875rem; }
+<<<<<<< HEAD
     .footer .footer-links a::after {
+=======
+    
+.footer .footer-links a::after {
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
       content: "•";
       padding: 0 0.2rem 0 0.4rem; }
     .footer .footer-links a:last-child::after {
       content: "";
       padding: 0 0.4rem 0 0.8rem; }
+<<<<<<< HEAD
   @media only screen and (min-width: 40.063em) {
+=======
+@media only screen and (min-width: 40.063em) {
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
     .footer p {
       text-align: left; }
     .footer .social {
@@ -209,19 +306,29 @@ $menu-background: #333;
   font-size: 1.5rem; }
   .logo i {
     margin-right: 0.5rem; }
+<<<<<<< HEAD
 
 
 .row {
   max-width: 1200px;
 }
 
+=======
+.row {
+  max-width: 1200px;
+}
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
 .footer {
   background-color: #292c2f;
   text-align: center;
   font-size: 1.2rem;
   padding: 4rem;
+<<<<<<< HEAD
   
   .inline-list a {
+=======
+.inline-list a {
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
     display: inline-block;
     width: 2rem;
     height: 2rem;
@@ -233,6 +340,7 @@ $menu-background: #333;
     line-height: 35px;
     margin: 0 3px 0 0;
   }
+<<<<<<< HEAD
   
   .contact {
     list-style-type: none;
@@ -241,6 +349,14 @@ $menu-background: #333;
     color: #fff;
     
     li {
+=======
+.contact {
+    list-style-type: none;
+    margin: 0;
+    text-align: left;
+    color: #fff;  
+ li {
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
       margin-bottom: 2rem;
       
       p {
@@ -260,8 +376,12 @@ $menu-background: #333;
       padding: .25em .45em;
     }
   }
+<<<<<<< HEAD
   
   .copywrite {
+=======
+.copywrite {
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
     color: #8f9296;
     font-size: 0.875rem;
     margin: 0 0 1rem 0;
@@ -312,7 +432,10 @@ $menu-background: #333;
     
   }
 }
+<<<<<<< HEAD
    
+=======
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
 .logo {
   color: #fff;
   font-size: 1.5rem;
@@ -334,7 +457,11 @@ $menu-background: #333;
     text-align: center;
     border-radius: 50%;
     box-shadow: 2px 2px 5px #888888; }
+<<<<<<< HEAD
   .profile-card .profile-info {
+=======
+.profile-card .profile-info {
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
     padding: 1rem; }
     .profile-card .profile-info h4 {
       margin-top: 0;
@@ -351,7 +478,12 @@ $menu-background: #333;
       .profile-card .profile-info .inline-list i.fi-social-facebook {
         font-size: 1.5rem;
         color: #3b5998; }
+<<<<<<< HEAD
         .profile-card .profile-info .inline-list i.fi-social-facebook:hover {
+=======
+        .profile-card .profile-info .inline-list i.fi-social
+facebook:hover {
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
           transform: scale(1.5);
           transition: all .5s ease-in-out; }
       .profile-card .profile-info .inline-list i.fi-social-twitter {
@@ -363,19 +495,34 @@ $menu-background: #333;
       .profile-card .profile-info .inline-list i.fi-social-linkedin {
         font-size: 1.5rem;
         color: #0077b5; }
+<<<<<<< HEAD
         .profile-card .profile-info .inline-list i.fi-social-linkedin:hover {
+=======
+        .profile-card .profile-info .inline-list i.fi-social
+linkedin:hover {
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
           transform: scale(1.5);
           transition: all .5s ease-in-out; }
       .profile-card .profile-info .inline-list i.fi-social-github {
         font-size: 1.5rem;
         color: #333; }
+<<<<<<< HEAD
+=======
+.profile-card .profile-info .inline-list i.fi-social-github {
+        font-size: 1.5rem;
+        color: #333; }
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
         .profile-card .profile-info .inline-list i.fi-social-github:hover {
           transform: scale(1.5);
           transition: all .5s ease-in-out; }
       .profile-card .profile-info .inline-list i.fi-social-youtube {
         font-size: 1.5rem;
         color: #cc181e; }
+<<<<<<< HEAD
         .profile-card .profile-info .inline-list i.fi-social-youtube:hover {
+=======
+.profile-card .profile-info .inline-list i.fi-social-youtube:hover {
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
           transform: scale(1.5);
           transition: all .5s ease-in-out; }
 .profile-card {
@@ -451,4 +598,8 @@ $menu-background: #333;
       }  
     }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ed63e0f0128893711a062b0dd919f37bf9ecc1db
