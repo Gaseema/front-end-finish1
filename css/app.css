@@ -170,3 +170,9 @@ $menu-background: #333;
     margin: 0;
     font-size: 0.875rem; }
     
+.footer .footer-links a::after {
+      content: "•";
+      padding: 0 0.2rem 0 0.4rem; }
+    .footer .footer-links a:last-child::after {
+      content: "";
+      padding: 0 0.4rem 0 0.8rem; }
