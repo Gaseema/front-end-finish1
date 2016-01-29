@@ -79,3 +79,8 @@ $menu-background: #333;
 .background-pic {
     width: 100%;
 }
+.background-pic img{
+    width: 100%;
+    height: vh;
+    
+}
