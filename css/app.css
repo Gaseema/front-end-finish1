@@ -87,3 +87,8 @@ $menu-background: #333;
 .about{
     margin-bottom: 5%;
 } 
+
+.about h1{
+    text-align: center;
+    padding-top: 4%; 
+}
