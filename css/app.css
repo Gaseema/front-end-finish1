@@ -63,3 +63,7 @@ $menu-background: #333;
     display: none !important;
   }
 }
+.dropdown.menu .submenu {
+  border: none;
+}
+
