@@ -41,3 +41,18 @@ $menu-background: #333;
   background: $menu-background;
   padding: 0.9rem;
 }
+.top-bar {
+  background: $menu-background;
+  
+  ul {
+    background: $menu-background;
+  
+    li {
+      background: $menu-background;
+    
+        a {
+          color: #fff;
+      }
+    }
+  }
+}
