@@ -346,3 +346,12 @@ linkedin:hover {
       .profile-card .profile-info .inline-list i.fi-social-github {
         font-size: 1.5rem;
         color: #333; }
+.profile-card .profile-info .inline-list i.fi-social-github {
+        font-size: 1.5rem;
+        color: #333; }
+        .profile-card .profile-info .inline-list i.fi-social-github:hover {
+          transform: scale(1.5);
+          transition: all .5s ease-in-out; }
+      .profile-card .profile-info .inline-list i.fi-social-youtube {
+        font-size: 1.5rem;
+        color: #cc181e; }
