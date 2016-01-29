@@ -162,3 +162,11 @@ $menu-background: #333;
     color: #92999f;
     font-size: 0.875rem;
     margin: 0 0 1rem 0; }
+.footer .footer-links a {
+    list-style: none;
+    font-weight: normal;
+    color: #fff;
+    padding: 3rem 0 2rem;
+    margin: 0;
+    font-size: 0.875rem; }
+    
