@@ -70,3 +70,6 @@ $menu-background: #333;
   border-color: #fff transparent transparent;
 }
 
+.is-drilldown-submenu-parent>a::after {
+  border-color: transparent transparent transparent #fff;
+}
