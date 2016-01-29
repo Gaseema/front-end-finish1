@@ -340,3 +340,9 @@ facebook:hover {
         font-size: 1.5rem;
         color: #0077b5; }
         .profile-card .profile-info .inline-list i.fi-social
+linkedin:hover {
+          transform: scale(1.5);
+          transition: all .5s ease-in-out; }
+      .profile-card .profile-info .inline-list i.fi-social-github {
+        font-size: 1.5rem;
+        color: #333; }
